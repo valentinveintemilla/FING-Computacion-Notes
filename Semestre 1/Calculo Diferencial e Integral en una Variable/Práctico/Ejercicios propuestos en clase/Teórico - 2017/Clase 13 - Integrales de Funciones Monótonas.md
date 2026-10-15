@@ -1,0 +1,1 @@
+Hacer la misma demostración con las funciones decrecientes (también con el dibujo que corresponde). La demostración es análoga, aunque hay que adaptar cada uno de los detalles necesarios, siendo un buen ejercicio para entender la demostración.

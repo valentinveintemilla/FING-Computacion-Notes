@@ -1,0 +1,1 @@
+Todos los ejercicios fueron resueltos a papel y lápiz.
