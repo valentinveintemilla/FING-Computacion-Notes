@@ -865,7 +865,7 @@ $$
 Como $v \in S^{\perp}$ y $s_{i} \in S$, entonces $\langle v, s_{i} \rangle = 0, \forall i \in \{ 1, \dots, n \}$:
 $$
 \begin{align}
-&= \sum_{j = 1}^{n} \alpha_{j} \cdot 0 \cdot s_{j} \\
+&= \sum_{j = 1}^{n} 0 \cdot s_{j} \\
 &= \sum_{j = 1}^{n} \vec{0} \\
 &= \vec{0}
 \end{align}
@@ -1007,6 +1007,8 @@ $$
 \end{pmatrix}
 $$
 
+ERROR: Esto último es incorrecto.
+
 ### Parte 5
 Determinamos el núcleo de $P_{S}$:
 $$
@@ -1022,7 +1024,7 @@ Determinamos la imagen de $P_{S}$:
 $$
 \mathrm{Im}(P_{S}) = \{ v \in V : P_{S}(s) = v, s \in V \}
 $$
-En este caso, $\mathrm{Im}(P_{S}) = S$, ya que $P_{S}(s) = s, \forall s \in S^{\perp}$, y $P_{S}(s') = \vec{0}, \forall s' \in S^{\perp}$.
+En este caso, $\mathrm{Im}(P_{S}) = S$, ya que $P_{S}(s) = s, \forall s \in S$, y $P_{S}(s') = \vec{0}, \forall s' \in S^{\perp}$.
 
 ### Parte 6
 Consideremos la matriz asociada obtenida en base a la base ortonormal de $V$:
@@ -1150,7 +1152,7 @@ x_{r} = 0
 \end{cases} \implies x_{r + 1}, x_{r + 2}, \dots, x_{n} \text{ son libres}
 $$
 $$
-S_{1} = \{ (0, \dots, 0, x_{r + 1}, x_{r + 2} \dots, x_{n}) : x_{r + 1}, x_{r + 2}, \dots, x_{n} \in \mathbb{K} \} = \left[ \left\{ 
+S_{0} = \{ (0, \dots, 0, x_{r + 1}, x_{r + 2} \dots, x_{n}) : x_{r + 1}, x_{r + 2}, \dots, x_{n} \in \mathbb{K} \} = \left[ \left\{ 
 (0, 0, \dots, 0, 1, 0, \dots, 0),
 (0, 0, \dots, 0, 0, 1, \dots, 0),
 \dots
